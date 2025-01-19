@@ -1,0 +1,2 @@
+広告でよく見る作る(兵士がどんどん増えていくやつ)
+多分参考になる: https://www.nabeliwo.blue/blog/2020/12/how-to-made-game-by-react

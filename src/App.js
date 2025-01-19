@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import MyButton from './Button';
 import { useState } from 'react';
+
+import MyButton from './Button';
+import Board from './gomoku_narabe/board';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +28,9 @@ function App() {
           Learn React
         </a>
         <MyButton count={count} addCountFunction={handleAddCount}/>
+        <div className="Board_container">
+          <Board />
+        </div>
       </header>
     </div>
   );
