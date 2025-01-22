@@ -3,7 +3,7 @@ import './App.css';
 import { useState } from 'react';
 
 import MyButton from './Button';
-import Board from './gomoku_narabe/board';
+import Game from './gomoku_narabe/Game';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,8 +28,8 @@ function App() {
           Learn React
         </a>
         <MyButton count={count} addCountFunction={handleAddCount}/>
-        <div className="Board_container">
-          <Board />
+        <div className="GameCouner">
+          <Game />
         </div>
       </header>
     </div>
