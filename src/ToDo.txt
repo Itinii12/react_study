@@ -1,2 +1,3 @@
-広告でよく見る作る(兵士がどんどん増えていくやつ)
-多分参考になる: https://www.nabeliwo.blue/blog/2020/12/how-to-made-game-by-react
+react-scripts の動きを知る
+React JavaScript Node.js に関する理解の言語化
+作成アプリケーションの構想を考える
